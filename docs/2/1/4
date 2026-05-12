@@ -1,0 +1,24 @@
+在直角坐标系中
+
+F [x]
+= m a [x]
+  m {d v [x]} / {d t}
+  m {d² x} / {d t²}
+
+F [y]
+= m a [y]
+  m {d v [y]} / {d t}
+  m {d² y} / {d t²}
+
+F [z]
+= m a [z]
+  m {d v [z]} / {d t}
+  m {d² z} / {d t²}
+
+在自然坐标系中
+
+F [tao] = m a [tao] = m {d v} / {d t}
+F [n] = m a [n] = m v² rho
+
+--- date
+2026-04-30

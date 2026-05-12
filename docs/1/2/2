@@ -1,0 +1,30 @@
+t 时刻,物体的位矢为 r[1] ,在 t + Delta t 时刻,物体在 r[2]
+
+位移
+: Delta _r_ = _r_ [2] - _r_ [1]
+
+位移的大小的变化量
+: Delta r = mid r[2] mid - mid r[1] mid
+
+在直角坐标系中,位移的表达式
+: Delta _r_
+  (x[2] - x[1]) _i_ + (y[2] - y[1]) _j_ + (z[2] - z[1]) _k_$
+  = Delta x _i_ + Delta y _j_ + Delta z _k_
+
+位移的大小
+: mid Delta _r_ mid$
+  sqrt{(x[2] - x[1])² + (y[2] - y[1])² + (z_2 - z_1)²}
+  = sqrt{Delta x² + Delta y² + Delta z²}
+
+元位移
+: Delta t to 0 时,有元位移
+  d _r_
+  = d x _i_ + d y _j_ + d z  _k_
+
+元位移的大小
+: 等于元路程
+  mid d _r_ mid
+  = d s
+
+--- date
+2026-04-30

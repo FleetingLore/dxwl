@@ -1,0 +1,119 @@
+这里仅讨论平面上的二维曲线运动
+
+曲率
+: 从曲线上邻近两点 P[1] , P[2] 各引一条切线
+  这两条切线夹角为 Delta theta, P[1], P[2] 两点间的弧长为 Delta s,则 P[1] 点的曲率定义为
+  k
+   = lim[Delta s to 0] {Delta theta} / {Delta s}
+    {d theta} / {d s}
+
+曲率半径
+: rho
+  = 1/k
+    {d s} / {d theta}
+
+---
+1. 平面曲线运动
+
+在自然坐标系的速度
+: 将加速度沿着质点所在处轨迹的切线方向和法线方向进行分解
+  这样得到的加速度的分量分别叫作
+  : 切向加速度
+    法向加速度
+  
+  直观地,有 _v_ = v tau [0]
+  法向速度的增两的模 mid Delta _v_ [tau]  mid = Delta v$ 反映了速度模的增量
+
+速度增量
+: 有 Delta _v_ = Delta _v_ [tau] + Delta _v_ [n]
+  Delta theta to 0 {
+    mid Delta _v_ [n] mid = v Delta theta
+    v 为质点在 P[1] 处速率
+  }
+ 
+加速度
+: 在 P[1] 处,以 _n_ [0] 表示内法线方向的单位矢量
+  以 _tau_ [0] 表示切线方向且指向质点前进方向的单位矢量 {
+    _a_
+    = lim[Delta t to 0] {Delta _v_} / {Delta t}
+      lim[Delta t to 0] {Delta _v_ [tau]} / {Delta t}
+      + lim[Delta t to 0] {Delta _v_ [n]}{Delta t}
+      = frac{d v} / {d t} _tau_ [0] + v {d theta} / {d t} _n_ [0]
+  }
+
+{d theta} / {d t}
+= {d theta} / {d s} {d s} / {d t}
+  v 1/rho
+
+_a_ 
+= ~{d v} / {d t}~ _tau_ [0] + ~v²/rho~ _n_ [0]
+= `a[tau]` _tau_ [0] + `a[n]` _n_ [0]
+
+加速度的模
+: mid _a_ mid
+  = sqrt{a² [tau] + a² [n]}
+
+---
+2. 圆周运动
+
+自然坐标系中的位移和速度
+: d _r_
+  = d s _tau_ [0]
+  
+  _v_
+  = {d _r_} / {d t}
+    {d s} / {d t} _tau_ [0]
+    v _tau_ [0]
+
+曲率和曲率半径对自然坐标系的描述
+: _a_ [_tau_]
+  = {d v} / {d t} _tau_ [0]
+    {d² s} / {d t²} _tau_ [0]
+  
+  _a_ [n]
+  = v²/rho _n_ [0]
+    v²/R _n_ [0]
+
+角速度
+: omega
+  = lim[Delta t to 0] {Delta theta} / {Delta t}
+  = {d theta} / {d t}
+
+角加速度
+: alpha
+  = lim[Delta t to 0] {Delta omega} / {Delta t}
+    {d omega} / {d t}
+    {d² theta} / {d t²}
+
+匀角加速度圆周运动
+: omega
+  = omega[0] + \alpha t 
+  
+  theta
+  = theta[0] + omega[0] t + 1/2 alpha t²
+  
+  omega² - \omega² [0]
+  = 2 alpha (theta - theta[0])
+
+- 在圆周运动中线量和角量的关系
+
+d s
+= R d \theta
+
+v
+= {d s} / {d t}
+  R {d theta} / {d t}
+  R omega
+
+a [_tau_]
+= {d v} / {d t}
+  R {d omega} / {d t}
+  R alpha
+
+a [n]
+= v²/R
+  R omega²
+
+角速度矢量与线速度矢量的关系
+: _v_
+  = _omega_ times _r_

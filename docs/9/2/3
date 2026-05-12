@@ -1,0 +1,29 @@
+Psi[e] = {
+  点电荷电场 {
+    正球面 {
+      oint[S] d Psi[e]
+      oint[S] {q d S / 4 pi varepsilon[0] r(2)}
+      q varepsilon[0]
+    }
+
+    点电荷在闭合曲面外 {
+      0
+    }
+  }
+
+  任意带电系统 [
+    oint[S] _E_ cdot d _S_
+    oint[S] (sum[1..n] _E [dot]) cdot d _S_
+    sum[*] oint[S] _E_ [dot] cdot d _S_
+    sum[*] q[dot] / varepsilon[0]
+  ]
+}
+
+静电场的高斯定理 {
+  通过真空中的静电场中任意闭合曲面的电通量 Psi[e]
+  = 包围在该闭合曲面内的电荷代数和 sum[*] q 的 1 / varepsilon[0]
+  而与闭合曲面外的电荷无关
+}
+
+--- date
+2026-04-30

@@ -1,0 +1,14 @@
+电压 = [
+  E[pa] / p[0]
+  int[a..infty] _E_ cdot d _l_
+] = U[a]
+
+电势差 = [
+  U[a] - U[b]
+  int[a..b] _E_ cdot d _l_
+] = U[ab]
+
+W[ab] = q[0] (U[a] - U[b])
+
+--- date
+2026-05-06

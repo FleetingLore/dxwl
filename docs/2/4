@@ -1,0 +1,168 @@
+本文讨论力的空间累计效应,进而讨论功和能的关系.
+
+---
+功 功率
+
+---
+功
+
+名词 | 功是力在位移方向上的投影与该物体位移大小的乘积
+
+W = F mid Delta \mathbf r mid \cos \alpha 2.23}
+
+W = _F_ \cdot Delta \mathbf r 2.24}
+
+恒力的功等于力与质点位移的内积.
+
+
+W = \int _a ^b _F_ \cdot d \mathbf r = \int _a ^b F \cos \alpha mid d \mathbf r mid = \int _a ^b F _r d s 2.25}
+
+
+在直角坐标系中
+
+
+\begin{matrix}
+W & = & \int _a ^b \left(F _x d x + F _y d y + F _z d z\right)\\
+  & = & \int _{(x [0], y [0], z [0])} ^{(x, y, z)} \left(F _x d x + F _y d y + F _z d z\right)
+\end{matrix}
+2.26}
+
+
+---
+功率
+
+名词 | 力在单位时间做的功称为功率
+
+
+P 
+= lim _{Delta t \to 0} \frac {Delta W} {Delta t} 
+= \frac {d W} {d t} 
+= _F_ \cdot _v_
+2.27}
+
+
+瞬时功率等于力和速度的乘积.
+
+---
+保守力的功
+
+
+W 
+= \int _{z [0]} ^z F _z d z 
+= \int _{z [0]} ^z - m g d z 
+= - (m g z - m g z [0])
+
+
+---
+动能 动能定理
+
+质点从位置 1 运动到 2
+
+
+\int _1² _F_ \cdot \text f \mathbf r = \frac{1}{2} m v _2² - \frac{1}{2} m v _1²
+2.33}
+
+
+动能定理
+
+
+W _{1 - 2} = E _{k 2} - E _{k 1}
+2.34}
+
+
+---
+势能
+
+
+\int _F_ _保 \cdot d r
+= - (E _p - E _{p0})
+= - Delta E _p
+2.35}
+
+
+
+E _p
+= \int _F_ _保 \cdot \taxt d \mathbf r + c
+2.36}
+
+
+
+E _{p 引}
+= - G \frac{m M}{r}
+2.37}
+
+
+
+E _{p 重}
+= m g z
+2.38}
+
+
+
+E _{p 弹}
+= \frac{1}{2} k x²
+2.39}
+
+
+表述
+| 势能是相对量，其值与势能零点的选择有关
+| 势能函数的形式与保守力的性质密切相关，对应于一种保守力的函数就可引进一种势能相关的函数
+| 势能由以保守力形式相互作用的物体系统所共有
+| 一对保守力的功等于相关势能增量的负值。因此，当保守力做正功时，系统势能减少；当保守力做负功时，系统势能增加。 
+
+---
+势能曲线
+
+
+F(x)
+= - \frac{d E _p}{d x}
+2.40}
+
+
+直角坐标系中由势能函数求保守力的一般式
+
+
+_F_
+= F _x \mathbf i + F _y \mathbf j + F _z \mathbf k
+= - \left(\frac{\partial E _p}{\partial x} \mathbf i + \frac{\partial E _p}{\partial y} \mathbf j + \frac{\partial E _p}{\partial z} \mathbf k\right)
+2.41}
+
+
+---
+质点系的动能定理与功能原理
+
+
+\sum _{i = 1} ^n \int _1² _F_ _{i 外} \cdot d \mathbf r _i + \sum _{i = 1} ^n \int \sum _{j = 1,j \ne i} ^n _F_ _{ji} \cdot d \mathbf r _i
+= \sum _{i = 1} ^n \frac{1}{2} m _i v _{i2}² - \sum _{i = 1} ^n \frac{1}{2} m _i v _{i2}²
+2.42}
+
+
+---
+机械能守恒定律
+
+.
+
+---
+能量守恒定律
+
+.
+
+---
+
+2026-03-18
+
+
+---
+
+2026-04-20
+
+---
+
+至上篇 = 大学物理/2_质点动力学/3_动量_动量守恒定律_质心运动定理
+至下篇 = 大学物理/2_质点动力学/5_理想流体的伯努利方程
+
+大学物理 = 大学物理/local
+第二章  质点动力学 = 大学物理/2_质点动力学
+
+返回首页 = local
+返回书架 = 电路分析local

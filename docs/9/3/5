@@ -1,0 +1,15 @@
+点电荷电场的电势 {
+  _E_ = (
+    q / 4 pi varepsilon[0]
+    _r_[0] r(2)
+  )
+
+  U[a] = q / 4 pi varepsilon[0] r
+}
+
+电势叠加原理 {
+  _E_ = sum[1..n] (
+    q / 4 pi varepsilon[0]
+    _r_[0] r(2)
+  )
+}

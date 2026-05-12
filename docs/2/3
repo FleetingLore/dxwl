@@ -1,0 +1,210 @@
+质点的动量定理
+
+牛顿所写的牛顿第二定律
+
+
+_F_ 
+= \frac{d}{d t} (m _v_) 
+2.10}
+
+
+引入动量
+
+
+_F_ 
+= \frac{d \mathbf p}{d t}
+2.11}
+
+
+两边积分
+
+
+\int [0] ^t 
+= _F_ d t 
+= \int _{\mathbf p [0]} ^{\mathbf p} d \mathbf p 
+= \mathbf p - \mathbf p [0] 
+= m _v_ - m _v_ [0]
+2.12}
+
+
+名词 | 力的冲量
+
+
+\mathbf I 
+= \mathbf p - \mathbf p [0] 
+2.13}
+
+
+表述
+| 质点的动量定理
+| 作用于物体上的合外力的冲量等于物体动量的增量
+
+在直角坐标系中
+
+
+\left\{
+\begin{matrix}
+\int _{t _1} ^{t _2} F _x d t = m v _{2 x} - m v _{1 x}\\
+\int _{t _1} ^{t _2} F _y d t = m v _{2 y} - m v _{1 y}\\
+\int _{t _1} ^{t _2} F _z d t = m v _{2 z} - m v _{1 z}\\
+\end{matrix}
+\right. 
+2.14}
+
+
+---
+质点系的动量定理
+
+质点系中质点 $i$ 所受内力
+
+\sum _{j = 1, j \ne i} ^{n} _F_ _{ji} 2.15}
+
+对质点 $i$ 应用动量定理
+
+\int _{t _1} ^{t _2} \left(_F_ _{i 外} + \sum _{j = 1, j \ne i} ^{n} _F_ _{ij}\right) d t = m _i _v_ _{i 2} - m _i _v_ _{i 1} 2.16}
+
+对 $i$ 求和
+
+\int _{t _1} ^{t _2} \left(\sum _{i = 1} ^{n} _F_ _{i 外}\right) d t = \sum _{i = 1} ^{n} m _i _v_ _{i 2} - \sum _{i = 1} ^{n} m _i _v_ _{i 1} 2.17}
+
+表述 | 质点系总动量的增量等于作用于该系统的合外力的冲量.
+
+---
+质点系的动量守恒定律
+
+若
+
+\sum _{i = 1} ^{n} _F_ _{i 外} = \mathbf 0
+
+则
+
+\sum _{i = 1} ^{n} m _{i} _v_ _{i 2} - \sum _{i = 1} ^{n} m _i _v_ _{i 1} = \mathbf 02.18}
+
+或
+
+\sum _{i = 1} ^{n} m _i _v_ _{i 1} = \sum _{i = 1} ^{n} m _i _v_ _{i 2}
+
+表述 动量守恒定律 | 
+
+一个孤立的力学系统,即系统不受外力作用,或合外力为零的系统,系统内各质点间动量可以交换,但系统的总动量保持不变.
+
+如果质点系所受合外力的矢量和为零,但合外力在某一方向上的分量为零,则质点系在该方向上的动量也满足守恒定律.
+
+---
+质心和质心运动定理
+
+---
+问题的提出
+
+质点系动量定理的微分形式
+
+
+\left(\sum _{i = 1} ^n _F_ _{i外}\right)d t = 
+d \left(\sum _{i = 1} ^n m _i _v_ _i\right) = 
+d \left(\sum _{i = 1} ^n m _i \frac{d \mathbf r _i}{d t}\right)
+
+
+或
+
+
+\sum _{i = 1} ^n _F_ _{i外}\right) =
+\frac{d}{d t} \left(\sum _{i = 1} ^n m _i \mathbf \frac{d \mathbf r _i}{d t}\right) = 
+\frac{d²}{d t²} \left(\ \boxed{\sum _{i = 1} ^n m _i \mathbf r _i} \ \right)
+
+
+令
+
+
+m \mathbf r _c = \sum _{i = 1} ^n m _i \mathbf r _i
+2.19}
+
+
+则
+
+
+\sum _{i = 1} ^n _F_ _{i外}\right)
+= \frac{d²}{d t²} \left(\ \boxed{\sum _{i = 1} ^n m _i \mathbf r _i} \ \right)
+= \frac{d²}{d t²} (m \mathbf r _i) = m \frac{d² \mathbf r _c}{d t²} = m _a_ _c
+2.20}
+
+
+即可以选取一个特殊质点
+
+
+\mathbf r _c = \frac{1}{m} \sum _{i = 1} ^n m _i \mathbf r _i
+2.21}
+
+
+名词 | 质心是质点系的质量分布中心
+
+---
+质心运动定理
+
+表述 |
+不管质点系所受外力如何分布，质心的运动就像是把质点系的全部质量集中于质心，所有外力的矢量和也作用于质心时的一个质点的运动。
+
+---
+质心的含义及其坐标运算
+
+在空间直角坐标系中
+
+质量分布连续时
+
+
+
+\left\{
+\begin{matrix}
+x _c = \frac{1}{m} \sum _{i = 1} ^n m _i x _i \\
+y _c = \frac{1}{m} \sum _{i = 1} ^n m _i y _i \\
+z _c = \frac{1}{m} \sum _{i = 1} ^n m _i z _i \\
+\end{matrix}
+\right.
+2.22a}
+
+---
+质量分布不连续时
+
+
+\left\{
+\begin{matrix}
+x _c = \int _{i = 1} ^n \frac{x d m}{m}\\
+y _c = \int _{i = 1} ^n m _i y _i \\
+z _c = \int _{i = 1} ^n m _i z _i \\
+\end{matrix}
+\right.
+2.22b}
+
+---
+重心坐标
+
+
+\left\{
+\begin{matrix}
+X _c = \frac{\sum m _i g _i x _i}{W}
+Y _c = \frac{\sum m _i g _i y _i}{W}
+Z _c = \frac{\sum m _i g _i z _i}{W}
+\end{matrix}
+\right.
+2.22c}
+
+
+
+---
+
+2026-03-18
+
+
+---
+
+2026-04-20
+
+---
+
+至上篇 = 大学物理/2_质点动力学/2_非惯性系_惯性力
+至下篇 = 大学物理/2_质点动力学/4_功_功能_势能_机械能守恒定律
+
+大学物理 = 大学物理/local
+第二章  质点动力学 = 大学物理/2_质点动力学
+
+返回首页 = local
+返回书架 = 电路分析local

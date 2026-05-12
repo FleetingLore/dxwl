@@ -1,0 +1,16 @@
+转动定律 {
+  [
+    J alpha
+    J {d omega / d t}
+    J {d omega / d theta} {d theta / d t}
+    J omega {d omega / d theta}
+  ] = M
+}
+
+刚体定轴转动的动能定理 {
+  int[theta[1]..theta[2] M d theta
+  = 1/2 J omega[2](2) - 1/2 J omega[1](2)
+}
+
+--- date
+2026-05-06
