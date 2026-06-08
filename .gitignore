@@ -3,3 +3,6 @@
 
 # mkdocs
 site/
+
+# zed
+.zed/
