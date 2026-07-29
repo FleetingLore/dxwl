@@ -161,3 +161,10 @@
 ::-webkit-scrollbar-track  { background: var(--bg); }
 ::-webkit-scrollbar-thumb  { background: var(--aux-lit); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--link); }
+
+/* 分界线 */
+.md-typeset hr {
+border-bottom: .0rem solid !important;
+display: flow-root !important;
+margin: 0em 0 !important;
+}
